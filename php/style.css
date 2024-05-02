@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+body{
+    font-family: poppins, sans-serif;
+    
+}
+
+:root{
+--whithe: #ffff;
+--roxo:  #23232e;
+--verde_mar: #3cb371;
+--color-p: #a1a1a1;
+--color-p-2: #868585;
+--feldspato: #d19275;
+--azul-mn: #191970;
+--azul_ceu: #4040ff;
+--degrade-btn: linear-gradient(#4040ff,#191970);
+}
+
+.background-branco{
+background: var(--verde_mar);
+
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0  5%;
+    margin: 0 auto;
+}
+
+.btn-gradiente{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image: var(--degrade-btn);
+    border-radius: 12px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ul{
+    display: flex;
+   align-items: center ; 
+}
+
+.ul li{
+    margin: 0 25px;
+    font-size: 15px;
+}
+
+.ul li a{
+    color: white;
+}
+
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: white;
+    margin-right: 0;
+    margin-left: 0;
+ 
+    ;
+}
+
+.main-text{
+    width: 50%;
+    color: var(--verde_mar);
+}
+
+.main-text h1{
+    font-size: 2.5rem;
+}
+
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-img{
+    width: 50%;
+    margin-right: -145px;   
+}
+
+.main-img img{
+    width: 100%;
+}
+
+.main-video{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    
+}
+
+.frase{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+h1{text-align: center;}
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+input [type="date"],
+input[type="text"],
+textarea {
+    width: 43%;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: var(--whithe);
+    color: black;
+    border: 2px solid #23232e;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+    .paragrafo{
+        font-size: 25px;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-weight: bold;
+    }
+
+.formulario{
+    font-weight: bold ;
+    margin-left: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:5px;
+}
+
+exibir comentarios.php{
+    font-weight: bold;
+
+}

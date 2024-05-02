@@ -1,0 +1,43 @@
+Nome: Motog7
+Data: 2024-04-20
+Comentário: Olá, mundo!
+
+
+Nome: Vinicius
+Data: 2024-04-20
+Comentário: Hello, world!
+
+
+<footer>
+  <div class="container0">
+    <div class=" footer-container"></div>
+    <h3>Fale com Evamar:</h3>
+    <p>Email: evamar.caetano@hotmail.com</p>
+    <p>Telefone/Zap:(31) 99166-7942</p>
+    <p>Nasci em Dores do Indaiá MG,<br> sou espírita-Cristão, engenheiro eletricista <br> e pós-graduado em Educação e Gestão Empresarial.<br> Jesus é o elo do Ecumenismo na Terra.</p>
+  </div>
+  <div class="footer-content">
+    <h3>Links</h3>
+    <ul class="list">
+      <li class="logo"><a href="https://www.febnet.org.br/" target="_blank"> <img src="./img/feblogo.jfif"></a></li>
+      <li class="logo"><a href="https://cei-spiritistcouncil.com/" target="_blank"><img src="./img/cei.png"></a></li>
+      <li class="logo"><a href="https://amemg.com.br/" target="_blank"><img src="./img/amemg.jfif"></a></li>
+      <li class="logo"><a href="https://www.uemmg.org.br/" target="_blank"><img src="./img/uem.jfif"></a></li>
+    </ul>
+  </div>
+  <div class="drogas">
+<img src="./img/nfume.gif">
+  </div>
+  <div class="aborto">
+<img src="./img/aborto.jpg">
+  </div>
+  <div class="bottom-bar">
+
+    <p><i class="fa-regular fa-copyright"></i>: 2024 Beaga City  Consultoria Web.
+    Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
